@@ -132,6 +132,16 @@
           </p>
           <a href="https://github.com/david419kr/auto_call_summarize" target="_blank">詳細：GitHub</a><br/>
         </div>
+
+        <!-- 개인 프로젝트 8-->
+        <div class="project-card">
+          <h3>日本語のポートフォリオ</h3>
+          <p>当ポートフォリオそのもの。<br/>
+            フロントエンド専門ではありませんし、ポートフォリオ自体初作成とあって拙い出来ですが、NuxtJSを使い、Webページとしてご覧いただけるように作ってみました。<br/>
+            コードはGitHubに公開していますので、そちらから御覧いただけます。
+          </p>
+          <a href="https://github.com/david419kr/portfolio_jp" target="_blank">詳細：GitHub</a><br/>
+        </div>
       </div>
     </section>
 
