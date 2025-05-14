@@ -132,7 +132,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="~/assets/css/project.css"></style>
+
+<!-- <style scoped>
 .project-detail-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -259,4 +261,4 @@ export default {
     text-align: center;
   }
 }
-</style>
+</style> -->

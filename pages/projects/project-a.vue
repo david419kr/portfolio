@@ -100,10 +100,10 @@
     <section class="project-section">
       <h2>プロジェクト成果</h2>
       <p>
-        サービスローンチから６ヶ月で登録ユーザー数７万人を達成し、仮想土地の総取引額は5億円を超えました。特に地理空間データの効率的な管理と処理により、10万区画以上の土地情報をリアルタイムで表示・操作できるシステムを実現し、ユーザー体験の向上に大きく貢献しました。
+        サービスローンチから6ヶ月で登録ユーザー数7万人を達成し、仮想土地の総取引額は5億円を超えました。特に地理空間データの効率的な管理と処理により、100万区画以上の土地情報をリアルタイムで表示・操作できるシステムを実現し、ユーザー体験の向上に大きく貢献しました。
       </p>
       <p>
-        このプロジェクトを通じて、当時新人開発者だった私は、大規模な地理空間データベースの設計・実装から、複雑なビジネスロジックの実装、そして本番環境での運用まで、一連のソフトウェア開発ライフサイクルを経験することができました。
+        このプロジェクトを通じて、当時新人開発者だった私は、大規模な地理空間データベースの設計・実装から、複雑なビジネスロジックの実装、そして本番環境での運用まで、一連のバックエンド開発ライフサイクルを経験することができました。
       </p>
     </section>
 
@@ -131,131 +131,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.project-detail-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.project-header {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.project-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 1rem;
-}
-
-.project-intro {
-  font-size: 1.125rem;
-  line-height: 1.6;
-  color: #555;
-}
-
-.project-section {
-  margin-bottom: 2.5rem;
-}
-
-.project-section h2 {
-  font-size: 1.8rem;
-  color: #2980b9;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #3498db;
-}
-
-.tech-stack-list {
-  list-style-type: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-}
-
-.tech-stack-list li {
-  padding: 0.75rem;
-  background-color: #f8f9fa;
-  border-left: 3px solid #3498db;
-  border-radius: 0 4px 4px 0;
-}
-
-.feature-item, .challenge-item {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.feature-item h3, .challenge-item h3 {
-  color: #2c3e50;
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-}
-
-.feature-item p, .challenge-item p {
-  line-height: 1.5;
-  color: #555;
-}
-
-.project-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #e0e0e0;
-}
-
-.back-button, .site-link {
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.back-button {
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-.site-link {
-  background-color: #3498db;
-  color: white;
-}
-
-.back-button:hover {
-  background-color: #e0e0e0;
-}
-
-.site-link:hover {
-  background-color: #2980b9;
-}
-
-@media (max-width: 768px) {
-  .project-header h1 {
-    font-size: 2rem;
-  }
-  
-  .tech-stack-list {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-footer {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .back-button, .site-link {
-    text-align: center;
-  }
-}
-</style>
+<style src="~/assets/css/project.css"></style>
