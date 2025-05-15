@@ -1,0 +1,75 @@
+{
+  "work_description": "업무로는 주로 Javascript와 Python을 사용한 백엔드 개발을 하고 있으며, 개인적으로는 Chrome 확장 기능 등 다양한 프로젝트를 개발하고 있습니다.",
+  "skill_stacks": "기술 스택",
+  "name": "금교중",
+  "view_details": "자세히 보기",
+  "deployment": "배포",
+  "detail": "상세",
+  "projects": {
+    "company_projects": {
+      "title": "회사 프로젝트",
+      "intro": "회사 프로젝트는 코드는 공개할 수 없으나, 자세히 보기 버튼으로 코드 이외의 상세 정보를 확인 가능합니다.",
+      "metaverse2": {
+        "title": "가상 부동산 운영 및 거래 서비스",
+        "description": "NestJS 백엔드 및 PostgreSQL 데이터베이스 설계부터 개발, 서비스 출시, 운영까지 지속적으로 폭넓게 참여했습니다.",
+        "note": "현재는 서비스가 종료되었지만, 어떤 서비스였는지는 당시의 백서를 통해 확인하실 수 있습니다.",
+        "whitepaper": "Metaverse2 백서"
+      },
+      "list_it": {
+        "title": "스포츠 컬렉션 거래 서비스",
+        "description": "Django 백엔드 및 MySQL 데이터베이스 개발. 대규모 리뉴얼을 담당하여 API 전반에 참여했습니다.",
+        "note": "현재도 운영 중이며, 주소는 다음과 같습니다.",
+        "address": "list-it.xyz"
+      }
+    },
+    "personal_projects": {
+      "title": "개인 프로젝트",
+      "intro": "개인 프로젝트는 GitHub에 공개하고 있으니, GitHub에서 자세한 코드와 Readme를 확인하실 수 있습니다.",
+      "llm_chat": {
+        "title": "ChatGPT, Grok, Ollama 등의 LLM API를 사용하여 캐릭터와 대화를 즐길 수 있는 음성 지원 챗봇.",
+        "description": "프론트엔드는 Python의 Streamlit을 사용하고, DB는 SQLite를 사용했습니다."
+      },
+      "novel_ai_helper": {
+        "title": "NovelAI라는 AI 이미지 생성 서비스 사용을 보조하는 Chrome 확장 프로그램.",
+        "description": "csv나 txt에서 리스트를 읽고 태그를 자동 완성하는 UI를 제공. 추가한 txt를 폴더로 관리하거나 HTML 상에서 편집할 수 있는 간단한 에디터 내장.",
+        "note": "2025년 현재, Chrome 웹 스토어에서 공개 중입니다."
+      },
+      "journal_migrator": {
+        "title": "iPhone의 Apple 공식 저널 앱에서 Diarium으로 데이터를 마이그레이션하는 도구.",
+        "description": "Apple Journal에서 내보낸 데이터를 분석하고, Diarium 앱에서 가져올 수 있는 형식으로 변환.",
+        "note": "iPhone에서 Android로 이전할 때 Apple Journal 데이터를 Diarium으로 이전하기 위해 Python으로 개발했습니다."
+      },
+      "watermark_remover": {
+        "title": "동영상 워터마크 제거 스크립트.",
+        "description": "동영상의 워터마크를 제거하기 위해 FFmpeg로 동영상을 분할하고, lama cleaner로 워터마크를 제거한 후, 다시 FFmpeg로 결합. 전체 자동화를 위해 Python과 Powershell/Batch 스크립트를 사용했습니다.",
+        "note": "현재까지 제 GitHub에서 가장 많은 Star와 Fork를 받은 프로젝트입니다."
+      },
+      "floating_button": {
+        "title": "스마트폰에서 자주 볼 수 있는, 화면 위에 떠 있는 반투명 버튼을 Windows에서 사용할 수 있는 도구.",
+        "description": "버튼에 할당할 앱이나 색상, 투명도, 크기 등을 설정할 수 있으며, 화면 상에 여러 개의 버튼을 동시에 배치할 수 있습니다.",
+        "note": "Autohotkey 2.0으로 개발하여, exe로 배포 중입니다."
+      },
+      "booru_downloader": {
+        "title": "booru 계열 이미지 배포 사이트에서 이미지 크롤링하는 GUI 도구.",
+        "description": "CUI 크롤링 라이브러리인 waifuc를 GUI로 사용할 수 있도록 래핑했습니다.",
+        "note": "Python의 PyQt로 GUI를 개발하고, booru에서 사용되는 태그의 자동 완성 기능을 내장했습니다."
+      },
+      "call_summary": {
+        "title": "통화 녹음을 텍스트로 변환하고 AI로 요약.",
+        "description": "현재 AI 통화 요약은 대부분 제조사 의존적인데, 의존하지 않고 자체적으로 AI 통화 요약을 사용할 수 있도록 개발했습니다.",
+        "note": "WhisperX로 음성을 텍스트로 변환하고, OpenAI API로 요약. Android의 Tasker와 연동하면 완전 자동으로 AI 통화 요약이 가능합니다.",
+        "tech": "Node.js와 Express로 개발하여, REST API로 사용 가능합니다."
+      },
+      "portfolio": {
+        "title": "이 포트폴리오 자체.",
+        "description": "NuxtJS를 사용해 웹 페이지로 보실 수 있도록 만들어봤습니다.",
+        "note": "코드는 GitHub에 공개되어 있으니 그곳에서 확인하실 수 있습니다."
+      }
+    }
+  },
+  "contact": {
+    "title": "연락처",
+    "email": "Email",
+    "github": "GitHub"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "work_description": "業務としては主にJavascriptとPythonを用いたBackend開発を行っており、個人としてはChrome拡張機能など色々と開発しています。",
+  "skill_stacks": "技術スタック",
+  "name": "グム・ギョジュン",
+  "view_details": "詳細を見る",
+  "deployment": "配布",
+  "detail": "詳細",
+  "projects": {
+    "company_projects": {
+      "title": "会社プロジェクト",
+      "intro": "会社プロジェクトのコードは公開できませんが、「詳細を見る」から公開し得る限りの詳細を御覧いだだけます。",
+      "metaverse2": {
+        "title": "仮想土地運営・売買サービス",
+        "description": "NestJSのBackend及びPostgreSQLのDatabase設計から開発、サービス立ち上げ、運営まで持続的に幅広く携わる。",
+        "note": "現在はサービス終了していますが、どういったサービスだったかは当時の白書を御覧いただけます。",
+        "whitepaper": "Metaverse2 Whitepaper"
+      },
+      "list_it": {
+        "title": "スポーツコレクション売買サービス",
+        "description": "DjangoのBackend及びMySQLのDatabaseでの開発。大型リニューアルを担当し、API全般に携わる。",
+        "note": "現在も運営中であり、アドレスはこちらになります。",
+        "address": "list-it.xyz"
+      }
+    },
+    "personal_projects": {
+      "title": "個人プロジェクト",
+      "intro": "個人プロジェクトはGitHubで公開していますので、GitHubから詳細なコードやReadmeを御覧いだだけます。",
+      "llm_chat": {
+        "title": "ChatGPTやGrok、OllamaなどのLLM APIを使い、キャラクターとの会話を楽しめる音声付きのチャットボット。",
+        "description": "フロントエンドはPythonのStreamlitを使用し、DBはSQLiteを使用。"
+      },
+      "novel_ai_helper": {
+        "title": "NovelAIというAI画像生成サービスの利用を補助するChrome拡張機能。",
+        "description": "csvやtxtからリストを読み取り、タグを自動補完機能するUIを提供。追加したtxtをフォルダーで管理したり、HTML上で編集できる簡易エディター内蔵。",
+        "note": "2025年現在、Chromeウェブストアで公開中です。"
+      },
+      "journal_migrator": {
+        "title": "iPhoneのApple公式ジャーナルアプリから、Diariumへとデータをマイグレーションするツール。",
+        "description": "Apple Journalでエクスポートしたデータを分析し、Diariumアプリでインポートできる形式に変換。",
+        "note": "iPhoneからAndroidへと移行する際に、Apple JournalのデータをDiariumに移行するため、Pythonで開発。"
+      },
+      "watermark_remover": {
+        "title": "動画の透かしを消すスクリプト。",
+        "description": "動画の透かしを消すために、FFmpegで動画を分割し、lama cleanerで透かしを消した後、再度FFmpegで結合。全自動化のため、PythonとPowershell/Batchスクリプトを使用。",
+        "note": "他のプロジェクトに比べ、若干片手間で開発したため少し不本意ですが、今のところ、自分のGithubで一番StarとForkをもらっているプロジェクトです。"
+      },
+      "floating_button": {
+        "title": "スマートフォンでよく見られる、画面上に浮いている半透明ボタンをWindowsで使えるツール。",
+        "description": "ボタンに割り当てるアプリや色、透明度、大きさなどを設定でき、画面上に複数個同時にボタンを並べられます。",
+        "note": "Autohotkey 2.0で開発し、exeで配布中。"
+      },
+      "booru_downloader": {
+        "title": "boooru系の画像配布サイトでイメージクローリングするGUIツール。",
+        "description": "CUIのクローリングライブラリーであるwaifucを、GUIで使えるようにラッピング。",
+        "note": "PythonのPyQtでGUIを開発し、booruで用いられるタグの自動補完機能を内蔵。"
+      },
+      "call_summary": {
+        "title": "通話録音を文字に起こし、AIで要約。",
+        "description": "現状、AI通話要約は大抵製造元依存的で、依存せず自前でAI通話要約を使えるように開発。",
+        "note": "WhisperXで音声を文字に起こし、OpenAI APIで要約。AndroidのTaskerと連携すると、全自動でAI通話要約が可能。",
+        "tech": "Node.jsとExpressで開発し、REST APIで使用可能。"
+      },
+      "portfolio": {
+        "title": "当ポートフォリオそのもの。",
+        "description": "フロントエンド専門ではありませんし、ポートフォリオ自体初作成とあって拙い出来ですが、NuxtJSを使い、Webページとしてご覧いただけるように作ってみました。",
+        "note": "コードはGitHubに公開していますので、そちらから御覧いただけます。"
+      }
+    }
+  },
+  "contact": {
+    "title": "連絡先",
+    "email": "Email",
+    "github": "GitHub"
+  }
+}

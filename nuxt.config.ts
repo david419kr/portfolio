@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   app: {
-    baseURL: '/portfolio_jp/'
+    baseURL: '/portfolio/'
   },
   modules: [
     '@nuxt/content',
@@ -13,6 +13,16 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@nuxt/ui'
-  ]
+    '@nuxt/ui',
+    '@nuxtjs/i18n'
+  ],
+  i18n: {
+    locales: [
+      { code: 'ko', name: '한국어', iso: 'ko-KR', file: 'ko.json' },
+      { code: 'ja', name: '日本語', iso: 'ja-JP', file: 'ja.json' }
+    ],
+    defaultLocale: 'ja',
+    lazy: true,
+    langDir: 'locales/'
+  }
 })
