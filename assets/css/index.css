@@ -103,6 +103,7 @@ body {
 }
 .project-card {
   background: var(--color-surface);
+  border: 2px solid var(--color-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   padding: 1.5rem;
