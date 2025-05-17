@@ -1,0 +1,71 @@
+.site-header {
+  background-color: var(--color-surface);
+  padding: 1rem 0;
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg);
+  border-radius: 24px;
+  padding: 0.35rem 0.75rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-main);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+
+.lang-btn.active {
+  color: var(--color-primary);
+  background-color: rgba(79, 70, 229, 0.1);
+}
+
+.lang-btn:hover:not(.active) {
+  color: var(--color-secondary);
+}
+
+.lang-divider {
+  color: var(--text-secondary);
+  opacity: 0.5;
+  margin: 0 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+  
+  .logo {
+    font-size: 1.25rem;
+  }
+}

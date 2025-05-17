@@ -21,7 +21,6 @@ export default defineNuxtConfig({
       { code: 'ko', name: '한국어', iso: 'ko-KR', file: 'ko.json' },
       { code: 'ja', name: '日本語', iso: 'ja-JP', file: 'ja.json' }
     ],
-    defaultLocale: 'ja',
     lazy: true,
     langDir: 'locales/'
   }

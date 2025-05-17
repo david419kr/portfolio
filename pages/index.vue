@@ -2,8 +2,8 @@
   <div class="container">
     <!-- 헤더 섹션: 자기소개 -->
     <section class="hero">
-      <h1>Kum GyoJoong</h1>
-      <h2>{{ $t('name') }}</h2>
+      <!-- <h1>Kum GyoJoong</h1> -->
+      <h1>{{ $t('name') }}</h1>
       <h2>Backend Developer</h2>
       <p>{{ $t('work_description') }}</p>
     </section>
@@ -37,22 +37,22 @@
         <!-- 회사 프로젝트 1 -->
         <div class="project-card">
           <h3>Metaverse2</h3>
-          <p>{{ $t('projects.company_projects.metaverse2.title') }}。<br/>
+          <p>{{ $t('projects.company_projects.metaverse2.title') }}<br/>
             {{ $t('projects.company_projects.metaverse2.description') }}<br/>
             {{ $t('projects.company_projects.metaverse2.note') }}
             <a href="https://undefined-21.gitbook.io/metaverse2-whitepaper-eng" target="_blank">({{ $t('projects.company_projects.metaverse2.whitepaper') }})</a><br/>
           </p>
-          <NuxtLink to="/projects/project-a">{{ $t('view_details') }}</NuxtLink>
+          <NuxtLink :to="$localePath('/projects/project-a')">{{ $t('view_details') }}</NuxtLink>
         </div>
         
         <!-- 회사 프로젝트 2 -->
         <div class="project-card">
           <h3>list-it</h3>
-          <p>{{ $t('projects.company_projects.list_it.title') }}。<br/>
+          <p>{{ $t('projects.company_projects.list_it.title') }}<br/>
             {{ $t('projects.company_projects.list_it.description') }}<br/>
             {{ $t('projects.company_projects.list_it.note') }} <a href="https://list-it.xyz/" target="_blank">({{ $t('projects.company_projects.list_it.address') }})</a><br/>
           </p>
-          <NuxtLink to="/projects/project-b">{{ $t('view_details') }}</NuxtLink>
+          <NuxtLink :to="$localePath('/projects/project-b')">{{ $t('view_details') }}</NuxtLink>
         </div>
       </div>
     </section>
@@ -140,7 +140,7 @@
             {{ $t('projects.personal_projects.portfolio.description') }}<br/>
             {{ $t('projects.personal_projects.portfolio.note') }}
           </p>
-          <a href="https://github.com/david419kr/portfolio_jp" target="_blank">{{ $t('detail') }}:  GitHub</a><br/>
+          <a href="https://github.com/david419kr/portfolio" target="_blank">{{ $t('detail') }}:  GitHub</a><br/>
         </div>
       </div>
     </section>
